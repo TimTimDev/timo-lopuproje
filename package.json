@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "swiper": "^8.0.7",
+    "vue": "^3.2.25",
+    "vue-flux": "^6.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.0",
