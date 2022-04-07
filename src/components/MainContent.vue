@@ -39,9 +39,9 @@ export default {
     class="mySwiper"
   >
     <swiper-slide class="max-h-full bg-black">
-      <img class="absolute" src="https://www.paiste.com/image/5772?ver=1593433699" alt="pic1">
-      <div class="absolute"></div>
-      <div class="relative flex-row flex items-end h-1/2 content-between w-4/5 justify-center">
+      <img class="absolute z-[1]" src="https://www.paiste.com/image/5772?ver=1593433699" alt="pic1">
+      <div class="absolute z-[2] bg-black"></div>
+      <div class="relative flex-row flex items-end h-1/2 content-between w-4/5 justify-center z-[3]">
         <h1 class="uppercase font-light text-5xl text-white leading-tight text-left w-1/2">Signature Precision Ride</h1>
         <a class="uppercase border-2 rounded text-white p-2 hover:bg-white hover:text-black" href="">view details</a>
       </div>
