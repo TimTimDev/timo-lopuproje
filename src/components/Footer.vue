@@ -16,14 +16,14 @@
             </div>
             <div class="absolute right-[450px] bottom-[180px] flex flex-row gap-x-4">
                 <p class="text-light text-[14px]">FOLLOW US</p>
-                <img src="/icons8-instagram.svg" alt="ig">
-                <img src="/icons8-twitter.svg" alt="tiwtter">
-                <img src="/icons8-facebook.svg" alt="facebook">
-                <img src="/icons8-youtube-squared.svg" alt="youtube">
+                <img src="src/assets/icons8-instagram.svg" alt="ig">
+                <img src="src/assets/icons8-twitter.svg" alt="tiwtter">
+                <img src="src/assets/icons8-facebook.svg" alt="facebook">
+                <img src="src/assets/icons8-youtube-squared.svg" alt="youtube">
             </div>
         </div>
         <div class="flex flex-row relative mx-4">
-            <p class="">© 2009 – 2022 Chapman Guitars Ltd • All Rights Reserved</p>
+            <p class="">© 2009 - 2022 Chapman Guitars Ltd • All Rights Reserved</p>
             <p>| Terms & Conditions |</p>
             <p>Privacy Policy</p>
             <p class="absolute right-0">Site by Thinking Juice</p>
