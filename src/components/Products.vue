@@ -2,9 +2,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <Header />
     <div>
-        <p class="text-2xl mb-8">GUITARS</p>
+        <p class="text-2xl mb-8">CYMBALS</p>
         <h1 class="text-5xl font-bold">EXPLORE THE DRUM RANGE</h1>
     </div>
     <div class="grid grid-cols-4 gap-8 p-12">
@@ -16,9 +16,13 @@
             </div>
         </div>
     </div>
+
+    <Footer />
 </template>
 
 <script setup>
+import Header from './Header.vue';
+import Footer from './Footer.vue'
     const products = [
         {
             id:1,
