@@ -25,35 +25,40 @@ export default {
 
 <template>
 <swiper
-    :spaceBetween="30"
     :centeredSlides="true"
     :autoplay="{
-      delay: 2500,
+      delay: 4500,
       disableOnInteraction: false,
     }"
     :pagination="{
       clickable: true,
     }"
-    :navigation="true"
+    :navigation="false"
     :modules="modules"
     class="mySwiper"
   >
     <swiper-slide class="max-h-full bg-black">
       <img class="absolute z-[1]" src="https://www.paiste.com/image/5772?ver=1593433699" alt="pic1">
-      <div class="absolute z-[2] bg-black"></div>
       <div class="relative flex-row flex items-end h-1/2 content-between w-4/5 justify-center z-[3]">
-        <h1 class="uppercase font-light text-5xl text-white leading-tight text-left w-1/2">Signature Precision Ride</h1>
-        <a class="uppercase border-2 rounded text-white p-2 hover:bg-white hover:text-black" href="">view details</a>
+        <h1 class="text-shadow uppercase font-light text-5xl text-white leading-tight text-left w-1/2">Signature Precision Ride</h1>
+        <a class="text-shadow uppercase border-2 rounded text-white p-2 hover:bg-white hover:text-black" href="">view details</a>
       </div>
      
     </swiper-slide>
-    <!--  
-    <swiper-slide>Slide 2</swiper-slide
-    ><swiper-slide>Slide 3</swiper-slide><swiper-slide>Slide 4</swiper-slide
-    ><swiper-slide>Slide 5</swiper-slide><swiper-slide>Slide 6</swiper-slide
-    ><swiper-slide>Slide 7</swiper-slide><swiper-slide>Slide 8</swiper-slide
-    ><swiper-slide>Slide 9</swiper-slide>
-    -->
+    <swiper-slide class="max-h-full bg-black">
+      <img class="absolute z-[1]" src="https://www.paiste.com/image/5780?ver=1593434178" alt="pic2">
+      <div class="relative flex-row flex items-end h-1/2 content-between w-4/5 justify-center z-[3]">
+        <h1 class="text-shadow uppercase font-light text-5xl text-white leading-tight text-left w-1/2">Signature Precision Heavy Hi-Hat</h1>
+        <a class="text-shadow uppercase border-2 rounded text-white p-2 hover:bg-white hover:text-black" href="">view details</a>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="max-h-full bg-black">
+      <img class="absolute z-[1]" src="https://www.paiste.com/image/5192?ver=1592836198" alt="pic3">
+      <div class="relative flex-row flex items-end h-1/2 content-between w-4/5 justify-center z-[3]">
+        <h1 class="text-shadow uppercase font-light text-5xl text-white leading-tight text-left w-1/2">PST X Swiss Thin Crash</h1>
+        <a class="text-shadow uppercase border-2 rounded text-white p-2 hover:bg-white hover:text-black" href="">view details</a>
+      </div>
+    </swiper-slide>
   </swiper>
 </template>
 
@@ -105,5 +110,7 @@ body {
   height: 100%;
   object-fit: contain;
 }
-
+.text-shadow {
+  text-shadow: 2px 2px black;
+}
 </style>
