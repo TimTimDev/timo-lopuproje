@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="relative h-[450px] w-screen p-12">
+        <div class="relative h-[450px] max-w-screen p-12">
             <div class="absolute left-28 font-serif pl-20 pt-8 text-left flex gap-y-4 flex-col">
                 <p>ABOUT US</p>
                 <p>HELP & SUPPORT</p>
