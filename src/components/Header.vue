@@ -18,9 +18,9 @@
 
       </div>
       <div class="w-full flex justify-center items-center col-span-10 gap-10">
-        <a href="" class="hover:bg-black hover:text-white p-4 duration-500">DRUMS</a>
-        <a href="" class="hover:bg-black hover:text-white p-4 duration-500">WHATEVER</a>
-        <a href="" class="hover:bg-black hover:text-white p-4 duration-500">WHATEVER X2</a>
+        <router-link to="/" class="hover:bg-black hover:text-white p-4 duration-500">HOME</router-link>
+        <router-link to="/products" class="hover:bg-black hover:text-white p-4 duration-500">PRODUCTS</router-link>
+        <router-link to="/locations" class="hover:bg-black hover:text-white p-4 duration-500">FIND A DEALER</router-link>
       </div>
       <div class="flex items-center col-span-1 justify-center">
         <a href="" class="hover:bg-black hover:text-white p-4 duration-500"><ShoppingCartIcon class="w-8" /></a>
